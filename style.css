@@ -1,0 +1,47 @@
+body{
+color: rgb(44, 58, 81);
+background-color: rgb(44, 58, 81);
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-size: 60px;
+}
+#twosoaps{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+}
+.Navi{
+    background-color: rgb(168, 127, 255);
+    width: 400px;
+    height: 736px;
+    
+}
+.container>.Head{
+    background-color: rgb(255, 127, 240);
+    height: 118px;
+    width: 1200px;
+}
+.container2>.Article{
+    background-color: rgb(255, 127, 138);
+    padding: 10px;
+    width: 100%;
+}
+.container2>.Aside{
+    background-color: rgb(255, 206, 127);
+    padding: 10px;
+    width: 100%;
+}
+.container>footer{
+    background-color: rgb(238, 255, 127);
+    width: 1200px;
+    height: 118px;
+}
